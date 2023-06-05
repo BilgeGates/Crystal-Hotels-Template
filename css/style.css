@@ -15,6 +15,10 @@ ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* * Fonts Styles*/
 
 @font-face {
@@ -70,20 +74,29 @@ nav ul {
   gap: 1.3125rem;
 }
 
-nav .register {
-  gap: 2.8125rem;
-}
-
 nav .name {
   font-size: 1.5rem;
 }
 
 nav ul li a,
-nav .register a {
+nav .register button {
   font-size: 0.875rem;
 }
 
-nav .register .sign_up {
+nav .register button {
+  color: var(--white-color);
+}
+
+nav .register {
+  gap: 2.8125rem;
+}
+
+nav .register .log_in button {
+  background: transparent;
+  border: none;
+}
+
+nav .register .sign_up button {
   width: 11.125rem;
   height: 3.25rem;
   background: var(--second-color);
@@ -92,4 +105,61 @@ nav .register .sign_up {
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
+  border: none;
+}
+
+/* * Start Styles */
+
+header .start {
+  width: 75rem;
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .start-head {
+  color: var(--second-color);
+  font-weight: 700;
+  letter-spacing: 0.00625rem;
+}
+
+header .start-body {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  color: var(--white-color);
+  font-weight: 700;
+  margin: 2rem 0;
+  letter-spacing: 0.0125rem;
+}
+
+header .start-footer {
+  font-size: 1.25rem;
+  color: var(--white-color);
+  letter-spacing: 0.00625rem;
+  font-weight: 400;
+  opacity: 0.3;
+  margin: 0 0 2rem;
+}
+
+header .button .create {
+  width: 12.4375rem;
+  height: 3.25rem;
+  background: var(--second-color);
+  color: var(--white-color);
+  font-size: 0.875rem;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.3125rem;
+}
+
+header .button .info {
+  width: 13.75rem;
+  height: 3.25rem;
+  background: transparent;
+  color: var(--second-color);
+  font-size: 0.875rem;
+  border: 1px solid var(--second-color);
+  font-weight: 700;
+  border-radius: 0.3125rem;
 }
