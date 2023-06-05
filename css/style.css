@@ -1,0 +1,95 @@
+/* * All Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* * Fonts Styles*/
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+html {
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+/* * Site Colors */
+
+:root {
+  /* ! Main Colors */
+  --white-color: #fff;
+  --black-color: #000;
+
+  /* ! Other Colors */
+  --first-color: #26335d;
+  --second-color: #ff6551;
+}
+
+/* * Header Styles */
+
+header {
+  height: 100vh;
+  background: var(--first-color);
+}
+
+nav {
+  width: 70rem;
+  margin: auto;
+  height: 4.8115rem;
+}
+
+nav,
+nav ul,
+nav .register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .name a,
+nav ul li a,
+nav .register a {
+  color: var(--white-color);
+}
+
+nav ul {
+  gap: 1.3125rem;
+}
+
+nav .register {
+  gap: 2.8125rem;
+}
+
+nav .name {
+  font-size: 1.5rem;
+}
+
+nav ul li a,
+nav .register a {
+  font-size: 0.875rem;
+}
+
+nav .register .sign_up {
+  width: 11.125rem;
+  height: 3.25rem;
+  background: var(--second-color);
+  border-radius: 0.3125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
