@@ -41,6 +41,7 @@ html {
   /* ! Other Colors */
   --first-color: #26335d;
   --second-color: #ff6551;
+  --thirdh-color: #feb896;
 }
 
 /* * Header Styles */
@@ -162,4 +163,34 @@ header .button .info {
   border: 1px solid var(--second-color);
   font-weight: 700;
   border-radius: 0.3125rem;
+}
+
+header .start-img {
+  position: relative;
+  z-index: 1;
+}
+
+header .start-img img {
+  border-radius: 1rem;
+}
+
+header .start-img .figures .restangle {
+  position: absolute;
+  width: 7.25rem;
+  height: 8.625rem;
+  background: var(--second-color);
+  z-index: -1;
+  top: 0%;
+  right: -5%;
+}
+
+header .start-img .figures .ellipse {
+  position: absolute;
+  width: 3.6875rem;
+  height: 3.6875rem;
+  background: var(--thirdh-color);
+  border-radius: 50%;
+  bottom: -3%;
+  z-index: -1;
+  left: -5%;
 }
