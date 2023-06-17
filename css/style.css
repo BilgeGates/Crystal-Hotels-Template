@@ -42,6 +42,8 @@ html {
   --first-color: #26335d;
   --second-color: #ff6551;
   --thirdh-color: #feb896;
+  --fourth-color: #b6d7ff;
+  --six-color: #2435a1;
 }
 
 /* * Header Styles */
@@ -185,6 +187,50 @@ header .start-img .figures .restangle {
 }
 
 header .start-img .figures .ellipse {
+  position: absolute;
+  width: 3.6875rem;
+  height: 3.6875rem;
+  background: var(--thirdh-color);
+  border-radius: 50%;
+  bottom: -3%;
+  z-index: -1;
+  left: -5%;
+}
+
+/* * Main Styles */
+
+/* ! First Section Styles */
+
+main .first-section {
+  width: 100vh;
+  height: 100vh;
+}
+
+main .first-section .container {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+main .first-section .container-img {
+  position: relative;
+  z-index: 1;
+}
+
+main .first-section .container-img img {
+  border-radius: 1rem;
+}
+
+main .first-section .restangle {
+  position: absolute;
+  width: 7.25rem;
+  height: 8.625rem;
+  background: var(--fourth-color);
+  z-index: -1;
+  top: -6%;
+  right: -5%;
+}
+
+main .first-section .ellipse {
   position: absolute;
   width: 3.6875rem;
   height: 3.6875rem;
