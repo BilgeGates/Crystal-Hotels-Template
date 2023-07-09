@@ -1,10 +1,10 @@
 import React from "react";
 import "./sectionthree.css";
-import Icon1IMG from "../../../assets/icon1.png";
-import Icon2IMG from "../../../assets/icon2.png";
-import Icon3IMG from "../../../assets/icon3.png";
-import Icon4IMG from "../../../assets/icon4.png";
-import Icon5IMG from "../../../assets/icon5.png";
+import Icon1IMG from "../../assets/icon1.png";
+import Icon2IMG from "../../assets/icon2.png";
+import Icon3IMG from "../../assets/icon3.png";
+import Icon4IMG from "../../assets/icon4.png";
+import Icon5IMG from "../../assets/icon5.png";
 
 const SectionThree = () => {
   return (

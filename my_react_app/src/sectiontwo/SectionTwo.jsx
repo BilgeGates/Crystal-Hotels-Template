@@ -1,38 +1,20 @@
 import React from "react";
-import "./sectionone.css";
-import HotelIMG from "../../../assets/hotel.png";
+import "./sectiontwo.css";
+import Course1IMG from "../../assets/course1.png";
+import Course2IMG from "../../assets/course2.png";
+import Course3IMG from "../../assets/course3.png";
 
-const SectionOne = () => {
+const SectionTwo = () => {
   return (
-    <section id="section1">
+    <section id="section2">
       <div className="container row__container">
         <div className="col">
-          <img src={HotelIMG} alt="" />
-          <svg
-            width="116"
-            height="138"
-            viewBox="0 0 116 138"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="vector"
-          >
-            <path d="M0 0H116V138H0V0Z" fill="#B6D7FF" />
-          </svg>
-          <svg
-            width="59"
-            height="59"
-            viewBox="0 0 59 59"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="ellipse"
-          >
-            <circle cx="29.5" cy="29.5" r="29.5" fill="#FEB896" />
-          </svg>
-        </div>
-        <div className="col">
           <div className="restangle"></div>
-          <h2>We are glad to see you among our clients!</h2>
-          <p>Thank you for joining our company</p>
+          <h2>Our Popular Courses</h2>
+          <p>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
           <a href="#">
             <button>
               Learn more
@@ -65,9 +47,33 @@ const SectionOne = () => {
             </button>
           </a>
         </div>
+        <div className="col">
+          <div className="col__alt">
+            <div className="box">
+              <img src={Course1IMG} alt="" />
+              <div className="restangle"></div>
+              <h5>Training Courses</h5>
+              <p>The gradual accumulation of information about </p>
+            </div>
+            <div className="box">
+              <img src={Course2IMG} alt="" />
+              <div className="restangle"></div>
+              <h5>Training Courses</h5>
+              <p>The gradual accumulation of information about </p>
+            </div>
+          </div>
+          <div className="col__alt">
+            <div className="box">
+              <img src={Course3IMG} alt="" />
+              <div className="restangle"></div>
+              <h5>Training Courses</h5>
+              <p>The gradual accumulation of information about </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
-export default SectionOne;
+export default SectionTwo;

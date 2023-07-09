@@ -1,0 +1,20 @@
+.icons {
+  position: absolute;
+  display: flex;
+  gap: 0.625rem;
+  bottom: 13px;
+  left: 90px;
+}
+
+.icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0.625rem;
+  border-radius: 2.79913rem;
+  background: var(--white-clr);
+  transition: var(--transition);
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}
