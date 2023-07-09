@@ -1,0 +1,63 @@
+header nav .nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  height: 5.5rem;
+  margin: 0 auto;
+}
+
+header nav .nav__container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.00625rem;
+}
+
+header nav .nav__container ul {
+  display: flex;
+  align-items: center;
+  gap: 1.3125rem;
+}
+
+header nav .nav__container ul li a {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 0.0125rem;
+}
+
+header nav .nav__container .register {
+  display: flex;
+  align-items: center;
+  gap: 2.8125rem;
+}
+
+header nav .nav__container .register .login a {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.375rem;
+  letter-spacing: 0.0125rem;
+}
+
+header nav .nav__container .register .registration a button {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  padding: 0.9375rem 1.5625rem;
+  border-radius: 0.3125rem;
+  background: var(--second-clr);
+  border: 1px solid var(--second-clr);
+  transition: var(--transition);
+  color: var(--white-clr);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  letter-spacing: 0.0125rem;
+}
+
+header nav .nav__container .register .registration a button:hover {
+  background: transparent;
+  border-color: var(--second-clr);
+}
