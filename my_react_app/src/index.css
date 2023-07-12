@@ -24,6 +24,8 @@
   --ninth-clr: #2dc071;
   --tenth-clr: #8ec2f2;
   --eleventh-clr: #e77c40;
+  --twelfth-clr: #e6e6e6;
+  --thirteenth-clr: #f9f9f9;
 
   --transition: all 400ms ease;
 
@@ -45,6 +47,7 @@ body {
 
 section {
   margin-top: 8rem;
+  padding: 3rem 0;
 }
 
 img {
