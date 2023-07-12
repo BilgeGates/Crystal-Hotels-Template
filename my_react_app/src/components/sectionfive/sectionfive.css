@@ -1,4 +1,4 @@
-#section4 .row__container {
+#section5 .row__container {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -84,9 +84,8 @@
   display: none;
 }
 
-#section5 .row__container .cards article:nth-child(2) {
+#section5 .row__container .cards .card:nth-child(2) {
   background: var(--first-clr);
-  color: var(--white-clr);
 }
 
 #section5 .row__container .cards .card .custom__details {

@@ -6,6 +6,8 @@ import SectionThree from "./components/sectionthree/SectionThree";
 import SectionTwo from "./components/sectiontwo/SectionTwo";
 import SectionOne from "./components/sectionone/SectionOne";
 import SectionFour from "./components/sectionfour/SectionFour";
+import SectionSix from "./components/sectionsix/SectionSix";
+import SectionSeven from "./components/sectionseven/SectionSeven";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <SectionSix />
+      <SectionSeven />
       <Footer />
     </>
   );

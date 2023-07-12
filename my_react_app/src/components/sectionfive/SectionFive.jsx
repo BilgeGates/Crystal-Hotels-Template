@@ -47,7 +47,6 @@ const SectionFive = () => {
     <section id="section5">
       <div className="container row__container">
         <div className="head">
-          {" "}
           <h6>Practice Advice</h6>
           <h2>Get Quality Education</h2>
           <p>
